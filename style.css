@@ -168,14 +168,12 @@ h3 {
   }
 }
 
-  @media (max-width: 42rem) {
   .event-grid {
     grid-template-columns: 1fr;
   }
 }
 
 .event-card {
-  margin-bottom: 1.5rem;
   overflow: hidden;
   border: 1px solid #b7c0b7;
   border-radius: 0.75rem;
