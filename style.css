@@ -157,7 +157,9 @@ h3 {
 }
 
 .event-grid {
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
 }
 
 @media (min-width: 600px) {
@@ -166,9 +168,11 @@ h3 {
   }
 }
 
+@media (min-width: 1024px) {
   .event-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+}
 
 .event-card {
   overflow: hidden;
